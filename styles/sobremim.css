@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+*{
+    margin: 0;
+    font-family: "Open Sans";
+}
+
+#card{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+}
+
+img{
+    border-radius: 50%;
+    width: 100px;
+    height:100px;
+}
+
+#bttns{
+    position:absolute;
+    user-select: none;
+    display:flex;
+    top:470px;
+}
+#bttns:hover, button:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: 500ms ease;
+}
+#bttns:active{
+    margin: 5px;
+    transition: 200ms ease;
+}
+#aboutMe{
+    width: 600px;
+    text-align: center;
+}
